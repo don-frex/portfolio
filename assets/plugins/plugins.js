@@ -12992,7 +12992,7 @@ var Swiper = (function () {
                   e +
                   "_" +
                   r +
-                  '" href="#">' +
+                  '>' +
                   i.title +
                   "</a></li>";
               }
