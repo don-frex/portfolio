@@ -158,20 +158,20 @@ img {
   opacity: 1;
   top: 0;
 }
-@media (max-width: 991.98px) {
+@media (max-width: 80px) {
   #cursor {
     display: none;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 80px) {
   #cursor {
     z-index: 999;
     position: absolute;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     background: white;
-    width: 10px;
-    height: 10px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     mix-blend-mode: difference;
     pointer-events: none;
@@ -179,9 +179,9 @@ img {
     transition: linear 0.08s;
   }
   #cursor.scale-cursor {
-    -webkit-transform: translate(-50%, -50%) scale(5);
-    transform: translate(-50%, -50%) scale(5);
-    opacity: 0.15;
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    /* opacity: 0.15; */
   }
 }
 .scrolltotop {
